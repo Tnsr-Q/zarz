@@ -3,9 +3,9 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "bunx rork start -p jvqolzllaan5zsmrsgg8c --tunnel",
-    "start-web": "bunx rork start -p jvqolzllaan5zsmrsgg8c --web --tunnel",
-    "start-web-dev": "DEBUG=expo* bunx rork start -p jvqolzllaan5zsmrsgg8c --web --tunnel",
+    "start": "expo start",
+    "start-web": "expo start --web",
+    "start-web-dev": "DEBUG=expo* expo start --web",
     "lint": "expo lint"
   },
   "dependencies": {
@@ -32,7 +32,7 @@
     "expo-symbols": "~0.4.4",
     "expo-system-ui": "~5.0.6",
     "expo-web-browser": "^14.2.0",
-    "lucide-react-native": "^0.475.0",
+    "lucide-react-native": "^0.542.0",
     "nativewind": "^4.1.23",
     "react": "19.0.0",
     "react-dom": "19.0.0",
